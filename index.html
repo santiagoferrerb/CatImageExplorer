@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CAT</title>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Gatitos App</h1>
+        <span class="error hide"> ERROR AL CARGAR LOS DATOS </span>
+        <button class="btn reload">Reload Cats</button>
+
+        <div class="foticos">
+            <div class="card">
+                <img class="imagen" alt="gato">
+                <button class="btn fav btn-love" > ❤️ </button>
+            </div>
+            <div class="card">
+                <img class="imagen" alt="gato">
+                <button class="btn fav btn-love" > ❤️ </button>
+            </div>
+            <div class="card">
+                <img class="imagen" alt="gato">
+                <button class="btn fav btn-love" > ❤️</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="upload-gatos">
+        <h2>Elige una Foto</h2>
+
+        <form class="upload-form" action="">
+            <label for="file">
+                <input id="file" type="file" name="file">
+            </label>
+            <button class="btn" type="button" onclick="uploadFoto()"> Subir Foto </button>
+        </form>
+
+    </div>
+
+    <div class="container">
+        <h2>Gatos Favoritos</h2>
+        <div class="favs">
+            <!-- <div class="card">
+                <img class="gatos-favoritos" alt="gato">
+                <button class="btn del-fav" >Añadir a Fav</button>
+            </div> -->
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</div>
+</body>
+</html>

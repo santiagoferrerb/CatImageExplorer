@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;700&family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 64px
+
+}
+
+.hide{
+    display: none;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.foticos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+}
+img {
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.btn{
+    background: #2f2f2f;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    font-family: 'Mooli', sans-serif;
+    text-transform: uppercase;
+    height: 32px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: salmon;
+    color: #2f2f2f;
+    font-weight: bold;
+}
+.btn-love, .del-fav{
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    font-family: 'Mooli', sans-serif;
+    text-transform: uppercase ;
+    font-size: 80px;
+
+}
+
+.reload{
+    width: 80%;
+}
+
+.favs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+.fav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0%;
+}
+
+.fav:hover{
+    opacity: 80%;
+    background: rgba(255,255,255,0.3);
+}
+.upload-gatos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+}
+
+.upload-gatos form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
