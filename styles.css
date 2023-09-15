@@ -11,7 +11,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 64px
+    gap: 40px;
+    margin: 32px 0px;
 
 }
 
@@ -88,7 +89,7 @@ img {
 }
 
 .reload{
-    width: 80%;
+    width: 270px;
 }
 
 .favs{
