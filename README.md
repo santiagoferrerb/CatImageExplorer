@@ -27,7 +27,7 @@ CatImageExplorer not only provides endless entertainment for cat enthusiasts but
 
 Explore the world of cats, from adorable kittens to majestic felines, and enhance your development skills with CatImageExplorer. Download it today or clone the repository to dive into the code and explore the inner workings of this delightful app. 
 
-[Link to GitHub Repository](#insert_github_link_here)
+[Link to GitHub Repository](https://santiagoferrerb.github.io/CatImageExplorer/)
 
 CatImageExplorer - Where every click is a chance to discover your new favorite cat picture! 🐱📸
 
